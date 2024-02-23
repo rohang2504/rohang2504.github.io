@@ -1,4 +1,4 @@
-# Cleanfolio Minimal
+# Clean Minimal Portfolio
 
 A portfolio template built with HTML, CSS, and JavaScript.
 
@@ -8,6 +8,3 @@ A portfolio template built with HTML, CSS, and JavaScript.
 
 [Live Demo]
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
