@@ -250,29 +250,45 @@ main {
   width: 1em;
 }
 
+.about__image {
+  width: 200px; /* Adjust the width of the image as needed */
+  height: 200px; /* Adjust the height of the image as needed */
+  border-radius: 50%; /* Make the image circular */
+  margin-right: 20px; /* Adjust margin between image and text as needed */
+  vertical-align: middle; /* Align image vertically with text */
+}
+
+.about__image img {
+  width: 200px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: apply border-radius for rounded image */
+}
+
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 
 .about__name {
   color: var(--clr-primary);
+  align-items: center;
 }
 
 .about__role {
   margin-top: 1.2em;
+  align-items: center;
 }
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
-  align-items: center;
-  justify-content: center;
+  max-width: 1000px;
+  text-align: justify;
 }
+
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 2em;
 }
 
 .about .link--icon {
