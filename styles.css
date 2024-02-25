@@ -65,7 +65,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h2 {
@@ -257,7 +257,7 @@ main {
   width: 200px; /* Adjust the width of the image as needed */
   height: 200px; /* Adjust the height of the image as needed */
   border-radius: 50%; /* Make the image circular */
-  margin-right: 20px; /* Adjust margin between image and text as needed */
+  margin-bottom: 10px; /* Adjust margin between image and text as needed */
   vertical-align: middle; /* Align image vertically with text */
 }
 
@@ -268,22 +268,22 @@ main {
 }
 
 .logo__image {
-  width: 60px; /* Adjust the width of the image as needed */
-  height: 60px; /* Adjust the height of the image as needed */
+  width: 70px; /* Adjust the width of the image as needed */
+  height: 70px; /* Adjust the height of the image as needed */
   border-radius: 0%; /* Make the image circular */
   margin-right: 20px; /* Adjust margin between image and text as needed */
   vertical-align: middle; /* Align image vertically with text */
 }
 
 .logo__image img {
-  width: 60px; /* Adjust the width of the image as needed */
+  width: 70px; /* Adjust the width of the image as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: apply border-radius for rounded image */
 }
 
 .about {
   flex-direction: column;
-  margin-top: 0em;
+  margin-top: em;
 }
 
 .about__name {
@@ -330,7 +330,10 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  background-size: cover;
+  background-position: center;
 }
+
 
 .project:hover {
   transform: translateY(-7px);
