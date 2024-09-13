@@ -392,6 +392,14 @@ main {
   margin-bottom: 2em;
 }
 
+.pub .details {
+  font-size: 15px;
+  margin: 0;
+  text-align: right;
+  margin-bottom: 1.5em;
+  margin-top: -2.5em;
+}
+
 .pub:hover {
   transform: translateY(-7px);
 }
